@@ -15,7 +15,7 @@ class CV extends React.Component {
   render() {
     return ( 
       <div className="h-full w-full relative cv pb-12">
-        <div className="max-w-2xl p-4 sm:p-12">
+        <div className="max-w-3xl p-4 sm:p-12">
           <Head/>
           <p className="leading-tight mb-4 text-xl sm:text-3xl">
             Curriculum Vitae  
@@ -29,15 +29,26 @@ class CV extends React.Component {
               <p className="leading-tight mb-4 text-xl sm:text-2xl">
                 Digital Developer, Bulldozer<br></br>2014 → pågående
               </p>
-              <p className="leading-tight mb-4 text-xl sm:text-xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Jobbar som digital developer. Jobbar med både front-, back end, design och DevOps. Utveckling främst i WordPress, meteor.js och react.js.
+                <br></br><br></br>
+                Jag ser till att lära mig de nya tekniker för webben som kan göra någon nytta och underlätta för mig och min arbetsprocess. Just nu jobbar jag gärna med:
+
+                <ul className="leading-tight mb-4 text-lg mt-4 sm:text-xl">
+                  <li>SCSS/PostCSS</li>
+                  <li>React/Next.js/Meteor.js/Node.js</li>
+                  <li>WordPress/Laravel</li>
+                  <li>MongoDB</li>
+                  <li>webpack/laravel-mix</li>
+                </ul>
+
               </p>
 
               <p className="leading-tight mb-4 mt-8 text-xl sm:text-2xl">
                 Frilansande webbutvecklare
               <br></br>2013 → 2016
               </p>
-              <p className="leading-tight mb-4 text-xl sm:text-xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Hjälpt mindre till mellanstora företag att ta fram webbplatser, logotyper, informationsvideor, med mera. Både direkt mot kund och som underleverantör.
               </p>
 
@@ -45,7 +56,7 @@ class CV extends React.Component {
                 Skiftledare, McDonalds
               <br></br>2008 → 2012
               </p>
-              <p className="leading-tight mb-4 text-xl sm:text-xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Jobbade som deltid på McDonalds under mina gymnasiestudier och blev sedan skiftledare efter studenten. Hade ansvar för både restaurang och medarbetare under mina skift. Var även med vid rekrytering.              
               </p>
             </div>
@@ -59,7 +70,7 @@ class CV extends React.Component {
                 Karlstads Universitet, <br></br>Filosofie kandidatexamen i informatik
               <br></br>2012 → 2015
               </p>
-              <p className="leading-tight mb-4 text-xl sm:text-xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 3-årigt program där fokus låg på IT-projekt, processer, användartester, prototyping, webbprogrammering, programmering, interaktionsdesign, webbanalys, grafisk form och foto.<br></br><br></br>
                 Min kandidatuppsats skrev jag om och utvärderade ramverk för att ta fram hyrbridapplikationer som webbutvecklare. Uppsatsen finns att läsa i fulltext <a target="_blank" href="http://kau.diva-portal.org/smash/get/diva2:821128/FULLTEXT01.pdf">här</a>.
               </p>
@@ -68,26 +79,14 @@ class CV extends React.Component {
                 Falkenbergs gymnasieskola,<br></br> samhäll inriktning språk
               <br></br>2007 → 2010
               </p>
-              <p className="leading-tight mb-4 text-xl sm:text-xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Läste samhällsprogrammet med inriktning språk. Det var precis som det låter — mycket språk. Tyvärr inga programmeringsspråk.
               </p>
               
             </div>
 
-            <div className="w-1/2">
-              <p className="leading-tight mb-4 text-xl sm:text-xl mt-8">
-                Jag ser till att lära mig de nya tekniker för webben som kan göra någon nytta och underlätta för mig och min arbetsprocess. Just nu jobbar jag gärna med:
-              </p>
-
-              <ul className="leading-tight mb-4 text-xl sm:text-xl">
-                <li>SCSS/PostCSS</li>
-                <li>React/Next.js/Meteor.js/Node.js</li>
-                <li>WordPress/Laravel</li>
-                <li>MongoDB</li>
-                <li>webpack/laravel-mix</li>
-              </ul>
-
-              <p className="leading-tight mb-4 text-xl sm:text-xl mt-16 pt-12">
+            <div className="w-full">
+              <p className="leading-tight mb-4 text-lg sm:text-xl mt-16 pt-12">
                 Tillbaka till <Link href="/"><a>startsidan</a></Link>
               </p>
             </div>
