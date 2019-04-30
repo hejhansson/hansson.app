@@ -9,31 +9,53 @@ body {
   background: #FAF7F3;
 }
 
-#circle { 
-  position: relative; 
-  width: 100%; 
-  padding-bottom: 100%; 
-  overflow: hidden; 
+
+:root {
+	--noOfItems: 15;
 }
 
-#circle svg { 
-  position: absolute; 
-  left: 0; 
-  top: 0; 
-  width: 100%; 
-  height: 540px;
-  animation-name: rotate;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+h1 {
+  position: absolute;
+  width: 140px;
+  height: 140px;
+	text-align: center;
+  border-radius: 50%;
+  font-size: 14px;
+  right: 3rem;
+  bottom: 2rem;
+  -webkit-animation: spin 6s infinite linear;
+  transform-origin: center;
+  background: silver;
 }
 
-@-webkit-keyframes rotate {
-    from { -webkit-transform: rotate(360deg); }
-    to { -webkit-transform: rotate(0); }
+span {
+	--units: 1;
+	--rotationUnit: calc((1turn / var(--noOfItems)) * var(--units, 1));
+	position: absolute;
+  width: 111px;
+  height: 120px;
+  top: 10px;
+  right: 1rem;
+	transform: rotate(var(--rotationUnit));
+	transform-origin: center;
 }
 
-@keyframes rotate {
-    from { transform: rotate(360deg); }
-    to { transform: rotate(0); }
+span:nth-child(2) { --units: 2; }
+span:nth-child(3) { --units: 3; }
+span:nth-child(4) { --units: 4; }
+span:nth-child(5) { --units: 5; }
+span:nth-child(6) { --units: 6; }
+span:nth-child(7) { --units: 7; }
+span:nth-child(8) { --units: 8; }
+span:nth-child(9) { --units: 9; }
+span:nth-child(10) { --units: 10; }
+span:nth-child(11) { --units: 11; }
+span:nth-child(12) { --units: 12; }
+span:nth-child(13) { --units: 13; }
+span:nth-child(14) { --units: 14; }
+span:nth-child(15) { --units: 15; }
+
+@keyframes spin {
+  from {transform:rotate(0deg);}
+  to {transform:rotate(360deg);}
 }
