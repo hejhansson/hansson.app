@@ -1,48 +1,52 @@
+import React from 'react'
+import Link from 'next/link'
 import Head from '../components/Head'
 
-function Home() {
+class Home extends React.Component {
+  constructor(props) {
+    super(props);
 
-  return ( 
-  <div className="h-screen w-full relative">
-    <div className="max-w-xl p-4 sm:p-12">
-      <Head/>
-      <p className="leading-tight mb-4 text-xl sm:text-3xl">
-        Alexander Hansson<br/>
-        Designer och utvecklare
-      </p>
+    this.state = {};
+  }
 
-      <p className="leading-tight mb-4 text-xl sm:text-3xl">
-        Bor i Falkenberg och jobbar för Karlstadbaserade kommunikationsbyrån Bulldozer. Tar fram moderna webblösningar till nationella och internationella företag.
-      </p>
+  componentDidMount() {
+  }
 
-      <p className="leading-tight mb-4 text-xl sm:text-3xl">
-        Om du vill nå mig kan du göra det på:<br/>
-        alexander.hansson@bulldozer.se<br/>
-        +46 730 66 92 60
-      </p>
-    </div>
+  render() {
+    return ( 
+      <div className="h-screen w-full relative sm:flex flex-col-reverse justify-between">
+        <div className="hidden sm:block">
+          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-3xl">
+            Läs mitt CV <Link href="/cv"><a>här</a></Link>
+          </p>
+        </div>
 
-    <h1>
-      <span>あ</span>
-      <span>な</span>
-      <span>た</span>
-      <span>は</span>
-      <span>翻</span>
-      <span>訳</span>
-      <span>で</span>
-      <span>翻</span>
-      <span>訳</span>
-      <span>し</span>
-      <span>ま</span>
-      <span>し</span>
-      <span>た</span>
-      <span>か</span>
-      <span>?</span>
-      
-    </h1>
+        <div className="max-w-xl p-4 sm:p-12 ">
+          <Head/>
+          <p className="leading-tight mb-4 text-xl sm:text-3xl">
+            Alexander Hansson<br/>
+            Designer och utvecklare
+          </p>
 
-  </div>
-  );
+          <p className="leading-tight mb-4 text-xl sm:text-3xl">
+            Bor i Falkenberg och jobbar för Karlstadbaserade kommunikationsbyrån Bulldozer. Tar fram moderna webblösningar till nationella och internationella företag.
+          </p>
+
+          <p className="leading-tight mb-4 text-xl sm:text-3xl">
+            Om du vill nå mig kan du göra det på:<br/>
+            alexander@hnssn.se<br/>
+            +46 730 66 92 60
+          </p>
+        </div>
+
+        <div className="sm:hidden">
+          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-3xl">
+            Läs mitt CV <Link href="/cv"><a>här</a></Link>
+          </p>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default Home;
