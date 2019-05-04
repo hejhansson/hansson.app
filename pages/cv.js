@@ -18,7 +18,7 @@ class CV extends React.Component {
         <div className="max-w-3xl p-4 sm:p-12">
           <Head/>
           <p className="leading-tight mb-4 text-xl sm:text-3xl">
-            Curriculum Vitae  
+            Resumé  
           </p>
 
           <div className="w-full flex flex-wrap">
