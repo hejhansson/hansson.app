@@ -33,16 +33,15 @@ class CV extends React.Component {
                 Jobbar som digital developer. Jobbar med både front-, back end, design och DevOps. Utveckling främst i WordPress, meteor.js och react.js.
                 <br></br><br></br>
                 Jag ser till att lära mig de nya tekniker för webben som kan göra någon nytta och underlätta för mig och min arbetsprocess. Just nu jobbar jag gärna med:
-
-                <ul className="leading-tight mb-4 text-lg mt-4 sm:text-xl">
-                  <li>SCSS/PostCSS</li>
-                  <li>React/Next.js/Meteor.js/Node.js</li>
-                  <li>WordPress/Laravel</li>
-                  <li>MongoDB</li>
-                  <li>webpack/laravel-mix</li>
-                </ul>
-
               </p>
+
+              <ul className="leading-tight mb-4 text-grey-dark text-lg mt-4 sm:text-xl">
+                  <li>CSS (SCSS/LESS/PostCSS)</li>
+                  <li>JavaScript (React/Next.js/Meteor.js/Node.js/express)</li>
+                  <li>PHP (WordPress/Laravel)</li>
+                  <li>Databser (MongoDB/MySQL)</li>
+                  <li>Build (webpack/laravel-mix/gulp)</li>
+              </ul>
 
               <p className="leading-tight mb-4 mt-8 text-xl sm:text-2xl">
                 Frilansande webbutvecklare
