@@ -25,7 +25,7 @@ class Projects extends React.Component {
             Hively
           </p>
           <p className="leading-tight mb-8 text-grey-dark text-lg sm:text-xl">
-            UX-/UI-design & utveckling
+            Grafisk profil, UX/UI & utveckling
           </p>
 
           <img src="/static/hively.jpg" />
@@ -58,7 +58,7 @@ class Projects extends React.Component {
           </p>
 
           <p className="leading-tight mb-8 text-grey-dark text-lg sm:text-xl">
-            Grafisk profil, design & utveckling
+            Grafisk profil, UX/UI & utveckling
           </p>
 
           <img src="/static/werun-logo.jpg" />
