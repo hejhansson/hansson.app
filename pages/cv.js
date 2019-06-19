@@ -30,7 +30,7 @@ class CV extends React.Component {
                 Digital Developer, Bulldozer<br></br>2014 → pågående
               </p>
               <p className="leading-tight mb-4 text-grey-dark text-lg sm:text-xl">
-                Jobbar som digital developer. Jobbar med både front-, back end, design och DevOps. Utveckling främst i WordPress, meteor.js och react.js.
+                Jobbar med både front-, back end, design och DevOps. Utveckling främst i WordPress, meteor.js och react.js.
                 <br></br><br></br>
                 Jag ser till att lära mig de nya tekniker för webben som kan göra någon nytta och underlätta för mig och min arbetsprocess. Just nu jobbar jag gärna med:
               </p>
@@ -48,7 +48,7 @@ class CV extends React.Component {
               <br></br>2013 → 2016
               </p>
               <p className="leading-tight mb-4 text-grey-dark text-lg sm:text-xl">
-                Hjälpt mindre till mellanstora företag att ta fram webbplatser, logotyper, informationsvideor, med mera. Både direkt mot kund och som underleverantör.
+                Hjälpt mindre till mellanstora företag att designa och utveckla webbplatser, ta fram logotyper och grafiska profiler, informationsvideor, med mera. Både direkt mot kund och som underleverantör.              
               </p>
 
               <p className="leading-tight mb-4 mt-8 text-xl sm:text-2xl">
