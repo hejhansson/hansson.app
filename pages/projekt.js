@@ -44,16 +44,6 @@ class Projects extends React.Component {
           <img className="mt-8" src="/static/rulla3.jpg" />
 
           <p className="leading-tight mb-2 mt-16 text-xl sm:text-3xl">
-            typeof
-          </p>
-
-          <p className="leading-tight mb-8 text-grey-dark text-lg sm:text-xl">
-            Design & utveckling
-          </p>
-
-          <img src="/static/typeof.jpg" />
-
-          <p className="leading-tight mb-2 mt-16 text-xl sm:text-3xl">
             we/run
           </p>
 
