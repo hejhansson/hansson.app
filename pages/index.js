@@ -16,7 +16,7 @@ class Home extends React.Component {
     return ( 
       <div className="h-screen w-full relative sm:flex flex-col-reverse justify-between">
         <div className="hidden sm:block">
-          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-3xl">
+          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-2xl">
             <Link href="/cv"><a>Resumé</a></Link> <Link href="/projekt"><a className="pl-8">Utvalda projekt</a></Link>
           </p>
         </div>
@@ -40,7 +40,7 @@ class Home extends React.Component {
         </div>
 
         <div className="sm:hidden">
-          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-3xl">
+          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-2xl">
             <Link href="/cv"><a>Resumé</a></Link> <Link href="/projekt"><a className="pl-4">Utvalda projekt</a></Link>
           </p>
         </div>

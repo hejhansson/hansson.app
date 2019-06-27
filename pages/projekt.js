@@ -29,7 +29,6 @@ class Projects extends React.Component {
           </p>
 
           <img src="/static/hively.jpg" />
-          <img className="mt-8" src="/static/hively-dash.jpg" />
 
           <p className="leading-tight mb-2 mt-16 text-xl sm:text-3xl">
             Rullavagn
@@ -54,7 +53,12 @@ class Projects extends React.Component {
           <img src="/static/werun-logo.jpg" />
           <img className="mt-8" src="/static/werun-dash.jpg" />
           <img className="mt-8" src="/static/werun-user.jpg" />
-          <img  className="mt-8"src="/static/werun.jpg" />
+          <img className="mt-8"src="/static/werun.jpg" />
+
+          <p className="leading-tight mt-12 mb-8 text-grey-dark text-lg sm:text-xl">
+            Projekten ovan är från tiden jag frilansade, senare referenser fås på begäran. 
+          </p>
+
 
 
           <div className="w-full">
