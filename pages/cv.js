@@ -15,18 +15,18 @@ class CV extends React.Component {
   render() {
     return ( 
       <div className="h-full w-full relative cv pb-12">
-        <div className="max-w-3xl p-4 sm:p-12">
+        <div className="max-w-xl p-4 sm:p-12">
           <Head/>
-          <p className="leading-tight mb-4 text-xl sm:text-3xl">
+          <p className="leading-tight mb-4 text-lg sm:text-xl">
             Resumé  
           </p>
 
           <div className="w-full flex flex-wrap">
             <div className="w-full sm:w-1/2">
-              <p className="leading-tight mb-4 mt-12 text-xl sm:text-3xl">
+              <p className="leading-tight mb-4 mt-12 text-lg sm:text-xl">
                 Arbetslivserfarenhet  
               </p>
-              <p className="leading-tight mb-4 text-xl sm:text-2xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Digital Developer, Bulldozer<br></br>2014 → pågående
               </p>
               <p className="leading-tight mb-4 text-grey-dark text-lg sm:text-xl">
@@ -39,11 +39,11 @@ class CV extends React.Component {
                   <li>CSS (SCSS/LESS/PostCSS)</li>
                   <li>JavaScript (React/Next.js/Meteor.js/Node.js/express)</li>
                   <li>PHP (WordPress/Laravel)</li>
-                  <li>Databser (MongoDB/MySQL)</li>
+                  <li>Databaser (MongoDB/MySQL)</li>
                   <li>Build (webpack/laravel-mix/gulp)</li>
               </ul>
 
-              <p className="leading-tight mb-4 mt-8 text-xl sm:text-2xl">
+              <p className="leading-tight mb-4 mt-8 text-lg sm:text-xl">
                 Frilansande webbutvecklare
               <br></br>2013 → 2016
               </p>
@@ -51,7 +51,7 @@ class CV extends React.Component {
                 Hjälpt mindre till mellanstora företag att designa och utveckla webbplatser, ta fram logotyper och grafiska profiler, informationsvideor, med mera. Både direkt mot kund och som underleverantör.              
               </p>
 
-              <p className="leading-tight mb-4 mt-8 text-xl sm:text-2xl">
+              <p className="leading-tight mb-4 mt-8 text-lg sm:text-xl">
                 Skiftledare, McDonalds
               <br></br>2008 → 2012
               </p>
@@ -61,11 +61,11 @@ class CV extends React.Component {
             </div>
 
             <div className="w-full sm:w-1/2 pl-0 sm:pl-16">
-              <p className="leading-tight mb-4 mt-12 text-xl sm:text-3xl">
+              <p className="leading-tight mb-4 mt-12 text-lg sm:text-xl">
                 Utbildning
               </p>
 
-              <p className="leading-tight mb-4 text-xl sm:text-2xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Karlstads Universitet, <br></br>Filosofie kandidatexamen i informatik
               <br></br>2012 → 2015
               </p>
@@ -74,7 +74,7 @@ class CV extends React.Component {
                 Min kandidatuppsats skrev jag om och utvärderade ramverk för att ta fram hyrbridapplikationer som webbutvecklare. Uppsatsen finns att läsa i fulltext <a target="_blank" href="http://kau.diva-portal.org/smash/get/diva2:821128/FULLTEXT01.pdf">här</a>.
               </p>
 
-              <p className="leading-tight mb-4 text-xl sm:text-2xl">
+              <p className="leading-tight mb-4 text-lg sm:text-xl">
                 Falkenbergs gymnasieskola,<br></br> samhäll inriktning språk
               <br></br>2007 → 2010
               </p>

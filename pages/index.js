@@ -1,6 +1,8 @@
 import React from 'react'
 import Link from 'next/link'
 import Head from '../components/Head'
+import SiteHeader from '../components/SiteHeader'
+import SiteFooter from '../components/SiteFooter'
 
 class Home extends React.Component {
   constructor(props) {
@@ -14,37 +16,39 @@ class Home extends React.Component {
 
   render() {
     return ( 
-      <div className="h-screen w-full relative sm:flex flex-col-reverse justify-between">
-        <div className="hidden sm:block">
-          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-2xl">
-            <Link href="/cv"><a>Resumé</a></Link> <Link href="/projekt"><a className="pl-8">Utvalda projekt</a></Link>
-          </p>
-        </div>
+      <div className="w-full relative">
 
-        <div className="max-w-xl p-4 sm:p-12 ">
+        <div className="max-w-xl mx-auto p-4 sm:p-12 flex justify-between flex-wrap">
           <Head/>
-          <p className="leading-tight mb-4 text-xl sm:text-3xl">
-            Alexander Hansson<br/>
-            Designer och utvecklare
-          </p>
+          <SiteHeader/>
 
-          <p className="leading-tight mb-4 text-xl sm:text-3xl">
+          <p className="leading-normal mb-4 max-w-md pt-12 text-lg sm:text-xl">
             Bor i Falkenberg och jobbar för Karlstadbaserade kommunikationsbyrån Bulldozer. Tar fram moderna webblösningar till nationella och internationella företag.
           </p>
-
-          <p className="leading-tight mb-4 text-xl sm:text-3xl">
-            Om du vill nå mig kan du göra det på:<br/>
-            alexander@hnssn.se<br/>
-            +46 730 66 92 60
-          </p>
         </div>
 
-        <div className="sm:hidden">
-          <p className="leading-tight mb-4 text-xl p-4 sm:p-12 sm:text-2xl">
-            <Link href="/cv"><a>Resumé</a></Link> <Link href="/projekt"><a className="pl-4">Utvalda projekt</a></Link>
-          </p>
+        <div className="w-full relative bg-grey-lighter">
+
+          <div className="max-w-xl mx-auto p-4 sm:p-12">
+
+            <p className="leading-normal mb-0 sm:mb-6 max-w-md pt-6 text-lg sm:text-xl w-full">
+              Utvalda projekt
+            </p>
+
+            <img className="mt-8" src="/static/hively.jpg" />
+            <img className="mt-8" src="/static/rulla.jpg" />
+            <img className="mt-8" src="/static/rulla2.jpg" />
+            <img className="mt-8" src="/static/werun-logo.jpg" />
+            <img className="mt-8"src="/static/werun.jpg" />
+
+            
+            <SiteFooter/>
+          </div>
         </div>
+
+
       </div>
+      
     );
   }
 }
