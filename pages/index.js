@@ -17,36 +17,19 @@ class Home extends React.Component {
   render() {
     return ( 
       <div className="w-full relative">
-
-        <div className="max-w-xl mx-auto p-4 sm:p-12 flex justify-between flex-wrap">
+        <div className="p-4 sm:p-12">
           <Head/>
           <SiteHeader/>
-
-          <p className="leading-normal mb-4 max-w-md pt-12 text-lg sm:text-xl">
-            Bor i Falkenberg och jobbar för Karlstadbaserade kommunikationsbyrån Bulldozer. Tar fram moderna webblösningar till nationella och internationella företag.
+          <p className="leading-normal max-w-md mb-4 pt-12 text-lg sm:text-xl">
+            Bor i Falkenberg och jobbar som designer & utvecklare på <a href="https://glesys.se">GleSYS</a>.
+            Pysslar främst med att vidareutveckla kontrollpanelen GleSYS Cloud. <br/>→ <a target="_blank" href="https://cloud.glesys.com/">https://cloud.glesys.com/</a>
           </p>
+          <p className="leading-normal max-w-md mb-4 pt-12 text-lg sm:text-xl">
+            Tidigare på kommunikationsbyrån Bulldozer där jag tog fram moderna webblösningar till nationella och internationella företag.
+            Jobbat med varumärken som Brämhults, Löfbergs, Folktandvården Sverige, Byggcheferna och Hemfosa. 
+          </p>
+          <SiteFooter/>
         </div>
-
-        <div className="w-full relative bg-grey-lighter">
-
-          <div className="max-w-xl mx-auto p-4 sm:p-12">
-
-            <p className="leading-normal mb-0 sm:mb-6 max-w-md pt-6 text-lg sm:text-xl w-full">
-              Utvalda projekt
-            </p>
-
-            <img className="mt-8" src="/static/hively.jpg" />
-            <img className="mt-8" src="/static/rulla.jpg" />
-            <img className="mt-8" src="/static/rulla2.jpg" />
-            <img className="mt-8" src="/static/werun-logo.jpg" />
-            <img className="mt-8"src="/static/werun.jpg" />
-
-            
-            <SiteFooter/>
-          </div>
-        </div>
-
-
       </div>
       
     );
