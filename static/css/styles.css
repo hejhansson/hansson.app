@@ -12,13 +12,14 @@ html { font-family: 'Inter', sans-serif; }
 
 @font-face {
   font-family: "sf-mono";
-  font-weight: 400;
+  font-weight: 600;
   src: url(./SF-Mono-Medium.otf);
 }
 
 body {
   font-family: "sf-mono", sans-serif;
   color: black;
+  font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
