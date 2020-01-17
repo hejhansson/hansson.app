@@ -18,7 +18,8 @@ html { font-family: 'Inter', sans-serif; }
 
 body {
   font-family: "sf-mono", sans-serif;
-  color: black;
+  color: #333333;
+  background: #E6E6E2;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -31,8 +32,12 @@ body {
 } */
 
 a {
-  color: #031098;
+  color: #5564A7;
   text-decoration: none;
+}
+
+.border-b {
+  border-bottom: 2px solid #5564A7;
 }
 
 .cv {
