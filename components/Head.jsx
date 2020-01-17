@@ -2,7 +2,7 @@ import NextHead from 'next/head'
 
 export default () => (
   <NextHead>
-    <title>Alexander Hansson — designer och webbutvecklare från Falkenberg</title>
+    <title>Alexander Hansson — designer och utvecklare från Falkenberg</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     <link href="https://unpkg.com/tailwindcss@0.7.4/dist/tailwind.min.css" rel="stylesheet"/>
     <link href="/static/css/styles.css" rel="stylesheet"/>
