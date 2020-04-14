@@ -1,35 +1,25 @@
-/* @import url('https://rsms.me/inter/inter.css');
-html { font-family: 'Inter', sans-serif; }
-@supports (font-variation-settings: normal) {
-  html { font-family: 'Inter var', sans-serif; }
-} */
-
 @font-face {
-  font-family: "sf-mono";
-  font-weight: 400;
-  src: url(./SF-Mono-Regular.otf);
-}
-
-@font-face {
-  font-family: "sf-mono";
+  font-family: "LabGrotesque";
   font-weight: 600;
-  src: url(./SF-Mono-Medium.otf);
+  src: url('./LabGrotesque-Regular.woff2') format('woff2'),
+       url('./LabGrotesque-Regular.woff') format('woff');
 }
 
 body {
-  font-family: "sf-mono", sans-serif;
+  font-family: "LabGrotesque", sans-serif;
   color: #333333;
   background: #E6E6E2;
   font-weight: 400;
+  min-height: 100vh;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
 }
 
-/* html {
+body {
   cursor:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAACVBMVEX///8AAAD///9+749PAAAAAXRSTlMAQObYZgAAAEZJREFUeAGt0EEKgDAUA1En9z+0qEENhA+FvlUZQqE9Bnynlmlr2iVkSY66AHrg+MddSUiU6VuxqMhYquzcCvO6PZjhx5oTQ+8Bs3EshqIAAAAASUVORK5CYII=), auto;
-} */
+}
 
 a {
   color: #5564A7;
