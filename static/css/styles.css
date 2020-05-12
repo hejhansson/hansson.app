@@ -1,12 +1,12 @@
 @font-face {
-  font-family: "LabGrotesque";
+  font-family: "Space Grotesk";
   font-weight: 600;
-  src: url('./LabGrotesque-Regular.woff2') format('woff2'),
-       url('./LabGrotesque-Regular.woff') format('woff');
+  src: url('./SpaceGrotesk-Regular.woff2') format('woff2'),
+       url('./SpaceGrotesk-Regular.woff') format('woff');
 }
 
 body {
-  font-family: "LabGrotesque", sans-serif;
+  font-family: "Space Grotesk", sans-serif;
   color: #333333;
   background: #E6E6E2;
   font-weight: 400;
