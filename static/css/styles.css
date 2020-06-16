@@ -1,8 +1,8 @@
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 600;
-  src: url('./SpaceGrotesk-Regular.woff2') format('woff2'),
-       url('./SpaceGrotesk-Regular.woff') format('woff');
+  src: url('./Graphik-Regular-Web.woff2') format('woff2'),
+       url('./Graphik-Regular-Web.woff') format('woff');
 }
 
 body {
