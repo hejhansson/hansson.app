@@ -1,14 +1,14 @@
 @font-face {
   font-family: "Space Grotesk";
   font-weight: 600;
-  src: url('./Graphik-Regular-Web.woff2') format('woff2'),
-       url('./Graphik-Regular-Web.woff') format('woff');
+  src: url('./LabGrotesque-Regular.woff2') format('woff2'),
+       url('./LabGrotesque-Regular.woff') format('woff');
 }
 
 body {
   font-family: "Space Grotesk", sans-serif;
   color: #333333;
-  background: #E6E6E2;
+  /* background: #E6E6E2; */
   font-weight: 400;
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
@@ -32,8 +32,18 @@ a {
   text-decoration: none;
 }
 
-.border-b {
-  border-bottom: 2px solid #5564A7;
+.with-background {
+  color: #00f;
+  background: #eaf0ff;
+  border-radius: 6px;
+  padding-left: 7px;
+  padding-right: 7px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.with-background:hover {
+  background: #d9e1f7;
 }
 
 .cv {
