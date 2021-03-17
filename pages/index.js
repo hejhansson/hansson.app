@@ -13,7 +13,7 @@ export default function Home() {
         <h1 className="text-lg xl:text-2xl max-w-2xl text-black">
           <span className="not-italic">ALEXANDER HANSSON</span> is a multi-disciplinary designer and developer based in Falkenberg, Sweden. Currently designing and developing at <a className="not-italic underline text-black hover:bg-yellow-100 hover:text-gray-900" href="https://glesys.se">GLESYS</a>. Formely at the ad agency <a className="not-italic underline text-black hover:bg-yellow-100 hover:text-gray-900" href="https://bulldozer.se">BULLDOZER</a>.
         </h1>
-        <h2 className="text-lg xl:text-xl max-w-xl leading-snug text-gray-800 pt-12 mt-16">
+        <h2 className="text-lg xl:text-xl max-w-xl leading-snug text-gray-800">
           <a className="underline text-black hover:bg-yellow-100 hover:text-gray-900" href="mailto:alexander@hansson.app">alexander@hansson.app</a>
         </h2>
       </main>
