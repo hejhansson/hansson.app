@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family: "Necto Mono";
+  src: url("/Necto-Mono.woff2") format("woff2"),
+       url("/Necto-Mono.woff") format("woff");
+}
+
+body {
+  font-family: "Necto Mono";
+}
